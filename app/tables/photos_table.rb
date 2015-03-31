@@ -10,6 +10,9 @@ class PhotosTable < TableCloth::Base
       link_to "Edit Photo", edit_photo_path(photo)
     end
   end
+
+  config.table.class = "table table-bordered"
+
   # Define columns with the #column method
   # column :name, :email
 

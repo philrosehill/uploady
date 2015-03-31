@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "twitter-bootstrap-rails"
+
 gem "table_cloth"
 
 gem "carrierwave"
